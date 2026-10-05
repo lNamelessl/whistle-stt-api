@@ -19,7 +19,7 @@ engine are baked into the image at build time, so boot makes no network calls.
 
 ## One-click deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](TEMPLATE_URL)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/whistle-stt-api)
 
 ## Quick start
 

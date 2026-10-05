@@ -6,7 +6,7 @@ on-device speech-recognition model. One click deploys a FastAPI service that tra
 mp3, m4a, webm, wav and more on CPU — in about 120 MB of RAM, small enough for
 free-tier containers where multi-GB Whisper images do not fit.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/trHp_c)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/whistle-stt-api)
 
 ## What you get
 
