@@ -62,6 +62,11 @@ async def _http_handler(_, exc: StarletteHTTPException):
     return _envelope(exc.status_code, str(exc.detail), "invalid_request_error")
 
 
+@app.exception_handler(audio.AudioError)
+async def _audio_error_handler(_, exc: audio.AudioError):
+    return _envelope(400, str(exc), "invalid_request_error", "undecodable_audio")
+
+
 def _require_auth(request: Request) -> None:
     if not config.API_KEY:
         return
